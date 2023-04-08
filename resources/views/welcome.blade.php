@@ -134,8 +134,63 @@
                         </div>
                     </div>
                     <!-- card3 is end here -->
-                </div>
+                    <!-- card4 go here -->
+                    <div class="card hover:shadow-lg">
+                        <img src="{{ '/images/stew.jpg' }}" alt="stew" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chili Stew</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Asad</span>
+                        </div>
+                        <div class="badge">
+                            <svg class="inline-block w-5" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>25 mins</span>
+                        </div>
+                    </div>
+                    <!-- card4 is end here -->
+                    <!-- card5 go here -->
+                    <div class="card hover:shadow-lg">
+                        <img src="{{ '/images/noodles.jpg' }}" alt="noodles"
+                            class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Veg Noodles</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Asad</span>
+                        </div>
+                        <div class="badge">
+                            <svg class="inline-block w-5" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>25 mins</span>
+                        </div>
+                    </div>
+                    <!-- card5 is end here -->
+                    <!-- card6 go here -->
+                    <div class="card hover:shadow-lg">
+                        <img src="{{ '/images/curry.jpg' }}" alt="curry" class="h-32 sm:h-48 w-full object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Tofu Curry</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Asad</span>
+                        </div>
+                        <div class="badge">
+                            <svg class="inline-block w-5" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>25 mins</span>
+                        </div>
+                    </div>
+                    <!-- card6 is end here -->
 
+                </div>
+                <div class="mt-12 flex justify-center">
+                    <div
+                        class="btn bg-secondary-100 text-secondary-200 inline-block hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">
+                        Load more
+                    </div>
+                </div>
                 <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Most Popular</h4>
 
                 <div class="mt-8 grid lg:grid-cols-3 gap-10">
@@ -190,14 +245,14 @@
                     </div>
                     <!-- card3 is end here -->
                 </div>
-            </div>
-
-            <div class="mt-12 flex justify-center">
-                <div
-                    class="btn bg-secondary-100 text-secondary-200 inline-block hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">
-                    Load more
+                <div class="mt-12 flex justify-center">
+                    <div
+                        class="btn bg-secondary-100 text-secondary-200 inline-block hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">
+                        Load more
+                    </div>
                 </div>
             </div>
+
         </main>
         <!-- end of main content -->
     </div>
